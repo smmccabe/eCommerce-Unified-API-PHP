@@ -1,7 +1,5 @@
 <?php
 
-namespace smmccabe\moneris;
-
 #################### mpgGlobals #############################################
 
 

@@ -7,8 +7,7 @@
     "ext-curl": "*"
   },
   "autoload": {
-    "psr-4": {
-      "smmccabe\\moneris\\": "eSELECTplus_PHP_NA_API_v105_Full"
+    "classmap": "eSELECTplus_PHP_NA_API_v105_Full"
     }
   }
 }
