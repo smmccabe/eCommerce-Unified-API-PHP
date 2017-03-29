@@ -1,0 +1,14 @@
+{
+  "name": "smmccabe/moneris",
+  "description": "Unified PHP SDK for Moneris",
+  "type": "library",
+  "require": {
+    "php": ">=5.5",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "smmccabe\\moneris\\": "eSELECTplus_PHP_NA_API_v105_Full"
+    }
+  }
+}
