@@ -20,7 +20,7 @@ class mpgGlobals
                   	'CLIENT_TIMEOUT' => '30'
                  	);
 
- 	function mpgGlobals()
+ 	function __construct()
  	{
  		// default
  	}
@@ -46,7 +46,7 @@ class httpsPost
 	{
 		$this->url=$url;
 		$this->dataToSend=$dataToSend;
-
+	  
 		if($this->debug == true)
 		{
 			echo "DataToSend= ".$this->dataToSend;
@@ -3145,7 +3145,7 @@ class riskRequest{
 	var $procCountryCode = "";
 	var $testMode = "";
 
-	function riskRequest($txn)
+	function __construct($txn)
 	{
 		if(is_array($txn))
 		{
