@@ -7,6 +7,6 @@
     "ext-curl": "*"
   },
   "autoload": {
-    "classmap": ["eSELECTplus_PHP_NA_API_v105_Full/"]
+    "classmap": ["mpgClasses.php"]
   }
 }
